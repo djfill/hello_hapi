@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "NODE_ENV=test node node_modules/lab/bin/lab -v -L"
+    "test": "NODE_ENV=test node node_modules/lab/bin/lab -v -L -D -l"
   },
   "author": "Brian Hogan",
   "license": "MIT",
@@ -14,6 +14,6 @@
   },
   "devDependencies": {
     "code": "^4.0.0",
-    "lab": "^15.2.2"
+    "lab": "^14.3.4"
   }
 }
